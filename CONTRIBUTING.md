@@ -1,4 +1,4 @@
-# Contibution Guidelines
+# Contribution Guidelines
 ## Getting Started
 前提: `mise` と `aqua` がインストールされていること
 
