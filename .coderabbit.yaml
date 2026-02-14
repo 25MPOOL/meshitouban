@@ -3,3 +3,5 @@ language: ja-JP
 early_access: true
 reviews:
   high_level_summary: false
+  auto_review:
+    base_branches: [’.*’]
