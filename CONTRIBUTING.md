@@ -2,7 +2,7 @@
 
 ## ブランチ命名規則
 
-例: `prefix/kebab-case
+例: `prefix/kebab-case`
 
 ## コミットメッセージ規則
 
