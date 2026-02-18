@@ -1,0 +1,36 @@
+[tools]
+python = "3.12"
+uv = "0.10.4"
+
+[env]
+VIRTUAL_ENV = "{{config_root}}/.venv"
+_.path = ["{{config_root}}/.venv/bin"]
+# 必要になったらAPIキーを定義できるよ
+
+[tasks.setup]
+description = "プロジェクトの初期セットアップ"
+run = "uv sync"
+
+[tasks.dev]
+description = "Discord Botの起動"
+run = "python main.py"
+
+[tasks.fmt]
+description = "コードフォーマット"
+run = "ruff format ."
+
+[tasks.fmt-check]
+description = "フォーマットチェック（CI用）"
+run = "ruff format . --check"
+
+[tasks.lint]
+description = "Lintチェック"
+run = "ruff check . --fix"
+
+[tasks.lint-check]
+description = "Lintチェック（CI用・自動修正なし）"
+run = "ruff check ."
+
+[tasks.test]
+description = "テストの実行"
+run = "pytest"
