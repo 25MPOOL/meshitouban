@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  pull_request:
+    paths:
+      - "src/**.py"
+  push:
+    branches:
+      - "**"
+    paths:
+      - "src/**.py"
+
+jobs:
+  CI:
+    runs-on: ubuntu-slim
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Install mise
+        uses: jdx/mise-action@v2
+      - name: Run setup
+        run: mise run setup
+
+      - name: Run fmt-check
+        run: mise run fmt-check
+      - name: Run lint-check
+        run: mise run lint-check
+      - name: Run test
+        run: mise run test
