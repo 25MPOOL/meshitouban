@@ -31,6 +31,36 @@
       "algorithm": "sha256"
     },
     {
+      "id": "github_release/github.com/nektos/act/v0.2.84/act_Darwin_arm64.tar.gz",
+      "checksum": "6739345C2BF7BBD1A3CEAF6503A9FFBE98B33DD3789EDCE39E8C844C6B49036B",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/nektos/act/v0.2.84/act_Darwin_x86_64.tar.gz",
+      "checksum": "46F6F5229A76EBF39FA51DD9EA05CB67DB5B05355AF204AF595553B6D8CEE618",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/nektos/act/v0.2.84/act_Linux_arm64.tar.gz",
+      "checksum": "116C7F27C4862FB01730C956C9BC9F51F9D44D8F3850FE6166B7DA9F68677A5C",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/nektos/act/v0.2.84/act_Linux_x86_64.tar.gz",
+      "checksum": "19D4525FB0D80FF50BD3252D3FA47EE1265A331FE4C39249AC65347E527E16E2",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/nektos/act/v0.2.84/act_Windows_arm64.zip",
+      "checksum": "F06BB7462DC1EF9A3650A0DCC7C0FE297C37CA8D61F1AD0CA033B39F4DD46893",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/nektos/act/v0.2.84/act_Windows_x86_64.zip",
+      "checksum": "3B4FCF9497D1F23AFBDD40BFA8E78E154D69754DA73C2D792A4152B4F8AE5C96",
+      "algorithm": "sha256"
+    },
+    {
       "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.476.0/registry.yaml",
       "checksum": "76F939441EF9C2B56F8ABC96BB1A93546C0A343E90507278DA61B3194799682970BB03A4E41E0DE2F05F2C9E080CADB64259A0B8FC978CB50E3139F412D6CE09",
       "algorithm": "sha512"
