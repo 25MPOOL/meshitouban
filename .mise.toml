@@ -8,7 +8,7 @@ run = "uv sync"
 
 [tasks.dev]
 description = "Discord Botの起動"
-run = "uv run python src/main.py"
+run = "uv run src/main.py"
 
 [tasks.fmt]
 description = "コードフォーマット"
