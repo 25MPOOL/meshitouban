@@ -1,6 +1,6 @@
 [tools]
 python = "3.12"
-uv = "0.10.7"
+uv = "0.10.8"
 
 [tasks.setup]
 description = "プロジェクトの初期セットアップ"
@@ -12,7 +12,7 @@ run = "uv run src/main.py --sync-only"
 
 [tasks.dev]
 description = "Discord Botの起動"
-run = "uv run python src/main.py"
+run = "uv run src/main.py"
 
 [tasks.fmt]
 description = "コードフォーマット"
