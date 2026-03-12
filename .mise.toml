@@ -6,6 +6,10 @@ uv = "0.10.9"
 description = "プロジェクトの初期セットアップ"
 run = "uv sync"
 
+[tasks.sync]
+description = "Discord Botのコマンドを同期"
+run = "uv run src/main.py --sync-only"
+
 [tasks.dev]
 description = "Discord Botの起動"
 run = "uv run src/main.py"
