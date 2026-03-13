@@ -1,4 +1,4 @@
-# 飯当番 meshiban
+# 飯番 meshiban
 
 ## 概要
 
